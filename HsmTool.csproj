@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\SoftdreamsLibrary\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyInvoice.Client.Net20">
+      <HintPath>..\SoftdreamsLibrary\EasyInvoice.Client.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyInvoice.Json">
+      <HintPath>..\SoftdreamsLibrary\EasyInvoice.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="EasySign.Core">
+      <HintPath>..\SoftdreamsLibrary\EasySign.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\SoftdreamsLibrary\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Custom">
+      <HintPath>..\SoftdreamsLibrary\System.Security.Custom.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase.Custom">
+      <HintPath>..\SoftdreamsLibrary\WindowsBase.Custom.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
